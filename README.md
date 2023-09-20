@@ -1,5 +1,5 @@
 # Othello Intelligent Agent
-I evaluated the `Double Deep Q-Networks` method from the DeepMind 2015 paper in the context of the Othello game and tried to create an intelligent agent for the `Othello` game. The main issue addressed is the choice complexity of players in the Othello game, which cannot be solved using classic algorithms or approaches. 
+I evaluated the `Double Deep Q-Networks` method from the [DeepMind 2015 paper](https://arxiv.org/abs/1312.5602) in the context of the Othello game and tried to create an intelligent agent for the `Othello` game. The main issue addressed is the choice complexity of players in the Othello game, which cannot be solved using classic algorithms or approaches. 
 Previously, I tried to tackle the issue with the Minimax algorithm in an evolutionary manner, but the results were unsatisfactory.
 In my new attempt, I used Reinforcement Learning and Deep Q-networks, which improved the results in knowing the game's essential rules and developing some strategies.
 You can find the game logic, the agent model, and the training phase in the base code.
